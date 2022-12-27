@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "deliveroo-clone",
+    "name": "Deliveroo",
     "slug": "deliveroo-clone",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -18,13 +18,17 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.deliveroo.clone",
+      "buildNumber": "1.0.0"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.deliveroo.clone",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
